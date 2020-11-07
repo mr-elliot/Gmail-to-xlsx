@@ -12,7 +12,7 @@ This project reads your N number of mails and creates a xlsx file under sender i
 `pip install email`
 
 
-# Pre-configuration to be done.
+# Pre-configuration to be done
 Open your gmail account -> Settings -> Security -> find "Less secure app access" and Turnn it ON.(Don't worry this is just to enable that your script can have  access for fetching details).
 
 
