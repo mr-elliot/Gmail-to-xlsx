@@ -104,6 +104,7 @@ for i in range(messages, messages-N, -1):
     r += 1
     c = 1
 wb.save(filename="Converted.xlsx")
+os.remove("Dummy.xlsx")
 imap.close()
 imap.logout()
 end = time.time()
